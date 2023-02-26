@@ -12,56 +12,56 @@ export const slideItems = [
     id: 1,
     img: Slide2,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fsfafd",
   },
   {
     id: 2,
     img: Slide3,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fbf0f4",
   },
   {
     id: 3,
     img: Slide4,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fsfafd",
   },
   {
     id: 4,
     img: Slide5,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fbf0f4",
   },
   {
     id: 5,
     img: Slide6,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fsfafd",
   },
   {
     id: 6,
     img: Slide7,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fbf0f4",
   },
   {
     id: 7,
     img: Slide8,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fsfafd",
   },
   {
     id: 8,
     img: Slide9,
     title: "SHOP AT OG'S",
-    desc: "30% OFF NEW ARRIVALS. DON'T COMPROMISE ON COMFORT AND AFFORDABILITY.",
+    desc: "SHOP THE LATEST TRENDS AND BEST DEALS AT OUR ONLINE STORE.",
     bg: "fbf0f4",
   },
 ];
@@ -81,6 +81,11 @@ export const categories = [
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "LIGHT JACKETS",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    title: "LIGHTER JACKETS",
   },
 ];
 
@@ -118,3 +123,10 @@ export const popularProducts = [
     img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
   },
 ];
+
+// export const headlines =[{
+//   id: 1,
+//   headlineInfo: ""Discover the Ultimate Online Shopping Experience with Our Wide Selection of Products, Easy Navigation, and Secure Checkout Process!"
+
+//   Our ecommerce store offers a diverse range of high-quality products at competitive prices. Whether you're looking for trendy clothing, stylish accessories, cutting-edge electronics, or unique home decor items, we have something for everyone. Our user-friendly website makes it easy to browse and find what you're looking for, with clear product descriptions, multiple images, and customer reviews. Plus, our secure checkout process ensures that your personal and payment information is always protected. Shop with us today and experience the ultimate convenience of online shopping!"
+// }]
