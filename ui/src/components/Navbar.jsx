@@ -89,12 +89,13 @@ const Navbar = () => {
 
         {/* Right Side */}
         <Right>
-          <Link to="/register">
-            <MenuItem>REGISTER</MenuItem>
-          </Link>
-          <Link to="/login">
-            <MenuItem>LOGIN</MenuItem>
-          </Link>
+          <MenuItem>
+            <Link to="/register">REGISTER</Link>
+          </MenuItem>
+
+          <MenuItem>
+            <Link to="/login">LOGIN</Link>
+          </MenuItem>
           <MenuItem>
             <Link to="/cart">
               <Badge badgeContent={4} overlap="rectangular" color="primary">
