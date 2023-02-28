@@ -1,6 +1,7 @@
-import express from "express";
-import cors from "cors";
-import * as dotenv from "dotenv";
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
@@ -9,12 +10,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", async (req, res) => {
-  res.status(200).send({
-    message: "This is the Ecommerce App Server!",
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then(() => console.log("DB connection successful!"))
+  .catch((err) => {
+    console.log(err);
   });
-});
+// app.get("/", async (req, res) => {
+//   res.status(200).send({
+//     message: "This is the Ecommerce App Server!",
+//   });
+// });
 
-app.listen(8800, (req, res) => {
-  console.log("App Running Perfectly on Port 8800!");
+app.listen(process.env.PORT || 5000, () => {
+  console.log("Backend server is running perfectly on port 5000!");
 });
